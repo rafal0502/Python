@@ -20,3 +20,11 @@ nums = {1:"one",2:"two",3:"three",}
 print (1 in nums)
 print ("three" in nums)
 print (4 not in nums)
+
+#wykorzystanie funkcji get
+print 'Funkcja get'
+pairs = {1: "apple", "orrange" : [2,3,4], True:"False",None:"True",}
+
+print(pairs.get("orrange"))
+print(pairs.get(7,"gdy nie ma klucza=7,zwróć to"))
+print(pairs.get(None))
