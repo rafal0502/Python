@@ -10,7 +10,12 @@ words = ("jajko","kielbasa","barszcz",)
 
 print(words[0])
 
-words[1] = "ser"    #Zmiana wywoła błąd
+#words[1] = "ser"    #Zmiana wywoła błąd
 
 
 #Jak słowniki i listy krotki mogą być zagnieżdzone w sobie
+
+#Krotki mogą być stworzone bez nawiasów okrągłych
+
+my_tuple ="one", "two", "three"
+print(my_tuple[0])
