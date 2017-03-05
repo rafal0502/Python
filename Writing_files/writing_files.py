@@ -1,4 +1,4 @@
-#zapisywanie do pliku nowy_plik.txt tekstu 
+#zapisywanie do pliku nowy_plik.txt tekstu
 
 file = open("nowy_plik.txt","w")
 file.write("Ala ma kota")
