@@ -14,3 +14,9 @@ squares [8] = 64
 squares[3] = 9  #redefinicja
 
 print(squares)
+
+#in not in - czy klucz jest w słowniku
+nums = {1:"one",2:"two",3:"three",}
+print (1 in nums)
+print ("three" in nums)
+print (4 not in nums)
