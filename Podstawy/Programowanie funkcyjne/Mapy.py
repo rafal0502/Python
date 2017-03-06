@@ -16,3 +16,4 @@ print(result)
 
 result = list(map(lambda x: x+5,nums))
 print(result)
+
