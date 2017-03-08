@@ -35,6 +35,10 @@ if re.match(pattern2,"999"):
 if re.match(pattern2, "99999"):
     print 'piec dziewiatek'
 
+
+
+
+
     
 
 
