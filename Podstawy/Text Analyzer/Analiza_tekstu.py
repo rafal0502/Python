@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 def count_char(text,char):
     count = 0
     for c in text:
@@ -17,6 +20,6 @@ print(count_char(tekst_z_pliku,"r"))
 #Zawartość procentowa każdej litery
 
 for char in "abcdefghijklmnopqrstuvwxyz":
-    perc = 100 * count_char(text,char)/len(text)
+    perc = 100 * count_char(tekst_z_pliku,char)/len(tekst_z_pliku)
     print("{0}-{1}%".format(char,round(perc,2)))
-    
+
