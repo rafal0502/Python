@@ -1,3 +1,6 @@
+"""
+Script tutaj to po prostu plik!
+"""
 # Wiekszosc programow w Pythonie to moduly ktore importujemy
 #lub skrypty, ktore cos robia
 
