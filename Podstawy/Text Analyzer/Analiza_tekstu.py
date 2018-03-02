@@ -22,4 +22,3 @@ print(count_char(tekst_z_pliku,"r"))
 for char in "abcdefghijklmnopqrstuvwxyz":
     perc = 100 * count_char(tekst_z_pliku,char)/len(tekst_z_pliku)
     print("{0}-{1}%".format(char,round(perc,2)))
-
